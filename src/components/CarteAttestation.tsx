@@ -1,7 +1,13 @@
 import type { Certification } from "@/data/certifications";
 
 function mmYYYY(s: string) {
-  const [y, m] = s.split("-");
+  // If it's already a readable date like "oct. 2025", just return it
+  if (s.includes(".")) return s;
+  
+  const parts = s.split("-");
+  if (parts.length < 2) return s;
+  
+  const [y, m] = parts;
   return `${m}/${y}`;
 }
 

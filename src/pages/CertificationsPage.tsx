@@ -19,13 +19,13 @@ export default function CertificationsPage() {
 
   return (
     <section className="grid gap-6">
-      <div className="flex items-center justify-between gap-4">
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         <h2 className="text-2xl font-semibold">Certifications</h2>
         <input
           placeholder="Filtrer (ex: React, Python...)"
           value={q}
           onChange={(e) => setQ(e.target.value)}
-          className="border rounded-xl px-3 py-2 w-72 bg-background text-sm focus:outline-none focus:border-violet-500"
+          className="border border-white/10 rounded-xl px-4 py-2.5 w-full md:w-72 bg-white/5 text-sm focus:outline-none focus:border-violet-500 transition-colors"
           aria-label="Filtrer les certifications"
         />
       </div>
