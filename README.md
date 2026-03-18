@@ -1,5 +1,8 @@
 # Portfolio — Khadim SEYE
 
+lien : https://portfolio-khadim-navy.vercel.app/
+
+
 Portfolio professionnel construit avec **React + TypeScript + Vite + Tailwind CSS**.
 
 ## 🚀 Démarrage rapide
