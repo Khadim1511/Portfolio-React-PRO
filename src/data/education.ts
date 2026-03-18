@@ -5,6 +5,7 @@ export type Education = {
   location?: string;
   start: string;
   end?: string;
+  gpa?: string;
   courses?: string[];
   highlights?: string[];
 };

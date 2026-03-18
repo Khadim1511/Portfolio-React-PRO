@@ -6,7 +6,8 @@
     "skipLibCheck": true,
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
-    "noEmit": true
+    "emitDeclarationOnly": true,
+    "composite": true
   },
   "include": ["vite.config.ts"]
 }
